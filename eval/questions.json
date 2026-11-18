@@ -1,0 +1,44 @@
+[
+  {
+    "query": "Which product was launched by the company acquired by the organization that employed Employee X?",
+    "gold": "Product P",
+    "hops": 3,
+    "gold_docs": ["doc_a", "doc_b", "doc_c"]
+  },
+  {
+    "query": "What product did Beta Labs launch?",
+    "gold": "Widget X",
+    "hops": 1,
+    "gold_docs": ["doc_i"]
+  },
+  {
+    "query": "What did Acme Corp acquire?",
+    "gold": "Beta Labs",
+    "hops": 1,
+    "gold_docs": ["doc_h"]
+  },
+  {
+    "query": "Who is the CEO of Mars?",
+    "gold": null,
+    "hops": 0,
+    "gold_docs": []
+  },
+  {
+    "query": "Which system was developed by the company acquired by Solaris Energy?",
+    "gold": "TurbineMax system",
+    "hops": 2,
+    "gold_docs": ["doc_j", "doc_k"]
+  },
+  {
+    "query": "What platform was launched by the company that partnered with Nova Bio?",
+    "gold": "CrisprOne platform",
+    "hops": 2,
+    "gold_docs": ["doc_l"]
+  },
+  {
+    "query": "Which product did Gamma Industries launch?",
+    "gold": null,
+    "hops": 0,
+    "gold_docs": []
+  }
+]
